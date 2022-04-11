@@ -1,0 +1,28 @@
+class Animal:
+-------------
++ name: string
++ kind: string
+-------------
++ move()
++ make_noise()
+
+
+class Book:
+-------------
++ title: string
++ author: string
++ genre: string
++ pages: int
++ isbn: int
++ hardcover: bool
+
+class Vehicle:
+-------------
++ make: string
++ model: string
++ vehicle_type: string
++ year: int
+-------------
++ drive()
+
+(getters/setters omitted to avoid repetition)
